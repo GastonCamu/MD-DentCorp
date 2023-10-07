@@ -5,7 +5,7 @@ body {
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "header header"
-        "nav main"
+        "main main"
         "footer footer";
     height: 100vh;
     header {
@@ -52,11 +52,6 @@ body {
                 }
             }
         }
-    }
-    nav {
-        grid-area: nav; 
-        background-color: #007bff;
-        color: white;
     }
     main {
         grid-area: main;

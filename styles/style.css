@@ -7,43 +7,82 @@ body {
 }
 body header {
   grid-area: header;
-  background-color: #333;
-  color: white;
-  padding: 1em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 20px;
+  background: rgb(185, 185, 185);
+  padding: 15px;
+  border-radius: 10px;
 }
-body header div {
-  display: flex;
-  align-items: center;
-}
-body header div img {
-  width: 8vh;
-  height: 8vh;
-  margin-right: 7px;
-}
-body header div button {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  width: 28vh;
-  height: 9vh;
-}
-body header div button img {
-  width: 7vh;
-  height: 7vh;
-  margin-right: 5px;
+body header div.empresa-logo img {
+  width: 250px;
+  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
 }
+body header div.MENU {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body header div.MENU nav {
+  border-radius: 15px;
+  background: rgb(43, 43, 43);
+  box-shadow: 0px 0px 5px 2px rgb(87, 87, 87);
+}
+body header div.MENU nav ul li a {
+  color: white;
+}
+body header div.MENU nav ul li a:hover {
+  color: rgb(153, 153, 153);
+}
+body header div.MENU nav ul li .nav-link.show {
+  color: rgb(153, 153, 153);
+}
+body header div.MENU nav ul li ul {
+  background: rgb(43, 43, 43);
+}
+body header div.MENU nav ul li ul li a {
+  color: white;
+}
+body header div.MENU nav ul li ul li a:hover {
+  background: rgb(68, 68, 68);
+  color: white;
+}
+body header div.perfil ul li a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: background, color, 800ms;
+}
+body header div.perfil ul li a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+body header div.perfil ul li a:hover {
+  background: rgb(43, 43, 43);
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: background, color, 800ms;
+}
 body main {
   grid-area: main;
-  padding: 1em;
+  height: 100vh;
+  transition: all 0.5s;
 }
 body footer {
   grid-area: footer;
   background-color: #333;
   color: white;
-  padding: 1em;
+  height: 20vh;
+  transition: all 0.5s;
 }/*# sourceMappingURL=style.css.map */

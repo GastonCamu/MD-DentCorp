@@ -16,7 +16,7 @@ body {
         align-items: center;
         justify-content: space-around;
         margin: 20px;
-        background: rgba(168, 168, 168, 0.945);
+        background-color: #646464e3;
         padding: 15px;
         border-radius: 10px;
 
@@ -84,6 +84,8 @@ body {
                             width: 50px;
                             height: 50px;
                             margin-right: 5px;
+                            object-fit: cover;
+                            border-radius: 50%;
                         }
                     }
                     a:hover {

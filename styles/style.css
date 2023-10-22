@@ -14,7 +14,7 @@ body header {
   align-items: center;
   justify-content: space-around;
   margin: 20px;
-  background: rgba(168, 168, 168, 0.945);
+  background-color: rgba(100, 100, 100, 0.8901960784);
   padding: 15px;
   border-radius: 10px;
 }
@@ -69,6 +69,9 @@ body header div.perfil ul li a img {
   width: 50px;
   height: 50px;
   margin-right: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
 }
 body header div.perfil ul li a:hover {
   background: rgb(43, 43, 43);

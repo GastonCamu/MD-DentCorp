@@ -91,12 +91,17 @@ body header div.perfil ul li ul li a:hover {
 body main {
   grid-area: main;
   height: 100vh;
-  transition: all 0.5s;
 }
 body footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
   grid-area: footer;
-  background-color: rgba(51, 51, 51, 0.6901960784);
+  background-color: rgba(0, 0, 0, 0.8549019608);
   color: white;
-  height: 20vh;
-  transition: all 0.5s;
+  height: 5vh;
+}
+body footer p {
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

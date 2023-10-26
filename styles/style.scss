@@ -10,6 +10,7 @@ body {
         "main main"
         "footer footer";
     height: 100vh;
+
     header {
         grid-area: header;
         display: flex;
@@ -114,13 +115,19 @@ body {
     main {
         grid-area: main;
         height: 100vh;
-        transition: all .5s;
     }
     footer {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        width: 100%;
         grid-area: footer;
-        background-color: #333333b0;
+        background-color: #000000da;
         color: white;
-        height: 20vh;
-        transition: all .5s;
+        height: 5vh;
+
+        p {
+            font-size: 18px;
+        }
     }
 }

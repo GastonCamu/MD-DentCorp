@@ -73,6 +73,19 @@ body header div.perfil ul li a img {
      object-fit: cover;
   border-radius: 50%;
 }
+body header div.perfil ul li a div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body header div.perfil ul li a div p.nombre-usuario {
+  margin: 0;
+}
+body header div.perfil ul li a div p.rol {
+  margin: 0;
+  font-size: 12px;
+}
 body header div.perfil ul li a:hover {
   background: rgb(43, 43, 43);
   color: white;

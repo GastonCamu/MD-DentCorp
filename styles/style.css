@@ -84,7 +84,7 @@ body header div.perfil ul li a div p.nombre-usuario {
 }
 body header div.perfil ul li a div p.rol {
   margin: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 body header div.perfil ul li a:hover {
   background: rgb(43, 43, 43);

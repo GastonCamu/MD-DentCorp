@@ -34,7 +34,7 @@ body main div.div-principal div.div-tabla table tr {
 body main div.div-principal div.div-tabla table tr td {
   text-align: center;
   border: 1px solid black;
-  padding: 1 1 1 1;
+  padding: 2px;
 }
 body main div.div-principal div.div-tabla table tr td.turnos__titulo {
   font-weight: bolder;
@@ -64,19 +64,28 @@ body main div.div-principal div.div-botones {
 body main div.div-principal div.div-botones form {
   display: flex;
   align-items: center;
+}
+body main div.div-principal div.div-botones form select {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+body main div.div-principal div.div-botones form div {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-body main div.div-principal div.div-botones form input {
+body main div.div-principal div.div-botones form div input {
   width: 130px;
   height: 30px;
 }
-body main div.div-principal div.div-botones form input::-moz-placeholder {
+body main div.div-principal div.div-botones form div input::-moz-placeholder {
   text-align: center;
 }
-body main div.div-principal div.div-botones form input::placeholder {
+body main div.div-principal div.div-botones form div input::placeholder {
   text-align: center;
 }
-body main div.div-principal div.div-botones form button {
+body main div.div-principal div.div-botones form div button {
   width: 30px;
   margin-left: 4px;
   padding: 0px;

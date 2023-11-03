@@ -223,8 +223,17 @@
             </div>
               <div class="div-botones">
                 <form role="search">
-                    <input type="search" placeholder="BUSCAR">
-                    <button type="submit"><img src="../../assets/img/lupa.png" alt="B"></button>
+                    <select name="Buscar Por" id="" name="Opciones">
+                        <label for="opciones">Opciones</label>
+                        <option value="ID">ID</option>
+                        <option value="Paciente">Paciente</option>
+                        <option value="Autorizado">Autorizado</option>
+                        <option value="Medico">Medico</option>
+                    </select>
+                    <div>
+                        <input type="search" placeholder="BUSCAR">
+                        <button type="submit"><img src="../../assets/img/lupa.png" alt="B"></button>
+                    </div>
                 </form>
                 <button>NUEVO TURNO</button>
                 <button>MODIFICAR</button>

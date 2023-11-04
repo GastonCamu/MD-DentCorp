@@ -127,18 +127,18 @@ body {
         }
     }
     main {
+        grid-area: main;
         display: flex;
         flex-direction: column;
         align-items: center;
-
         h2 {
             text-align: center;
         }
 
         div.div-principal {
             background-color: rgba(0, 0, 255, 0.26);
-            border-radius: 20px;
             width: 80%;
+            border-radius: 20px;
             padding: 30px;
             display: flex;
             align-items: center;
@@ -204,6 +204,9 @@ body {
                         justify-content: center;
 
                         input {
+                            outline: none;
+                            border: 1px solid black;
+                            border-radius: 5px;
                             width: 130px;
                             height: 30px;
                         }
@@ -211,9 +214,16 @@ body {
                             text-align: center;
                         }
                         button {
+                            border: 1px solid black;
+                            border-radius: 50%;
+                            outline: none;
                             width: 30px;
                             margin-left: 4px;
                             padding: 0px;
+
+                            img {
+                                padding: 5px;
+                            }
                         }
                     }
                 }

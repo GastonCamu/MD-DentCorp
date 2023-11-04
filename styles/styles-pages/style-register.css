@@ -36,7 +36,18 @@ body{
     margin: 15px 0;
 }
 
-.container form> div> input[type="text"],input[type="password"]{
+.container form.formLog> div> input[type="text"],input[type="password"],input[type="email"]{
+    width: 86%;
+    padding: 15px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+}
+.container form.formLog> div> input[type="password"]{
     width: 86%;
     padding: 15px;
     padding-left: 40px;
@@ -48,9 +59,36 @@ body{
     font-size: 18px;
 }
 
+.container form.formReg> div> input[type="text"],input[type="password"],input[type="email"]{
+    width: 100%;
+    padding: 15px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+}
+
+
+
+
 .container form> div> input[type="submit"]{
     width: 100%;
     padding: 15px;
+    margin: 20px o;
+    border: none;
+    border-radius: 10px;
+    background: #20b2aa;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container form> div> a> input[type="button"]{
+    width: 100%;
+    padding: 8px;
     margin: 20px o;
     border: none;
     border-radius: 10px;
@@ -70,6 +108,7 @@ body{
 .container form> div> input::placeholder{
     color: #fff;
 }
+
 
 .container form> div>img{
     position: absolute;
@@ -143,4 +182,6 @@ body{
 .last-base a:hover{
     text-decoration: underline;
 }
+
+
 

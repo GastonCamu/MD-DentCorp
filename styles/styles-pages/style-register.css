@@ -36,7 +36,7 @@ body{
     margin: 15px 0;
 }
 
-.container form.formLog> div> input[type="text"],input[type="password"],input[type="email"]{
+.container form.formLog> div> input[type="text"],input[type="email"]{
     width: 86%;
     padding: 15px;
     padding-left: 40px;
@@ -88,7 +88,7 @@ body{
 
 .container form> div> a> input[type="button"]{
     width: 100%;
-    padding: 8px;
+    padding: 15px;
     margin: 20px o;
     border: none;
     border-radius: 10px;
@@ -96,6 +96,12 @@ body{
     color: #fff;
     cursor: pointer;
     font-size: 20px;
+}
+.container form> div> a> input[type="button"]:hover{
+    background-color: #25736f; 
+    border-color: #115652; 
+    color: #ffffff; 
+    transition: 0.5s;
 }
 
 .container form> div> input[type="submit"]:hover {
@@ -121,7 +127,7 @@ body{
     filter: invert(100%);
 }
 
-.switch{
+/* .switch{
     position: relative;
     width:25px;
     height: 14px;
@@ -141,29 +147,29 @@ body{
     height: 10px;
     border-radius: 50%;
     transition: 0.5s;
-}
+} */
 
-#loggedin:checked + label div{
+/* #loggedin:checked + label div{
     background: #20b2aa;
 }
 
 #loggedin:checked + label div::before{
     transform: translateX(11px);
-}
+} */
 
-.first-base{
+/* .first-base{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #fff;
     font-size: 18px;
-}
+} */
 
-.child-base{
+/* .child-base{
     display: flex;
     align-items: center;
-    /* gap: 10px; */
-}
+    gap: 10px;
+} */
 
 .last-base{
     padding: 10px 0;
@@ -175,6 +181,8 @@ body{
 }
 
 .last-base a{
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-decoration: none;
     text-align: center;

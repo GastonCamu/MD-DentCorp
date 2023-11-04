@@ -131,15 +131,16 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
         h2 {
             text-align: center;
         }
 
         div.div-principal {
-            background-color: rgba(0, 0, 255, 0.26);
-            width: 80%;
+            background-color: rgba(0, 0, 0, 0.795);
+            width: 90%;
             border-radius: 20px;
-            padding: 30px;
+            padding: 40px;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
@@ -147,12 +148,12 @@ body {
             div.div-tabla {
                 background-color: transparent;
                 max-height: 300px;
-                border: 4px solid rgba(0, 0, 0, 0.678);
+                border: 4px solid rgb(255, 255, 255);
                 border-radius: 5px;
                 overflow-y: auto;
-                width: 80%;
+                width: 70%;
                 table {
-                    background-color: white;
+                    background: rgb(210, 210, 255);
                     width: 100%;
                     border-collapse: collapse;
                     tr {
@@ -160,29 +161,31 @@ body {
     
                         td {
                             text-align: center;
-                            border: 1px solid black;
+                            border: 1px solid rgb(192, 192, 252);
                             padding: 2px;
                         }
                         td.turnos__titulo {
+                            color: white;
                             font-weight: bolder;
+                            background: rgb(83, 83, 155);
                         }
                     }
                     tr.turnos__fila__titulo {
                         user-select: none;
                         cursor: default;
                     }
-                    .selected {
-                        border-top: 4px solid rgb(18, 18, 122);
-                        border-bottom: 4px solid rgb(18, 18, 122);
-                        background-color: rgba(0, 0, 0, 0.219);
+                    tr.selected {
+                        border-top: 4px solid rgb(0, 0, 0);
+                        border-bottom: 4px solid rgb(0, 0, 0);
+                        background-color: rgb(245, 245, 255);
                     }
                     tr.turnos__contenido:hover {
-                        background-color: rgba(0, 0, 0, 0.219);
+                        background-color: rgb(245, 245, 255);
                     }
                 }
             }
             div.div-botones {
-                width: 20%;
+                width: 30%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -194,9 +197,19 @@ body {
                     align-items: center;
 
                     select {
-                        width: 20px;
-                        height: 20px;
-                        margin: 5px;
+                        width: 70px;
+                        height: 30px;
+                        margin: 7px;
+                        border: 1px solid rgb(255, 255, 255);
+                        border-radius: 5px;
+                        font-weight: bolder;
+
+                        option[value="Default"] {
+                            display: none;
+                        }
+                    }
+                    select:hover {
+                        cursor: pointer;
                     }
                     div {
                         display: flex;
@@ -205,16 +218,17 @@ body {
 
                         input {
                             outline: none;
-                            border: 1px solid black;
+                            border: 0;
                             border-radius: 5px;
-                            width: 130px;
+                            width: 150px;
                             height: 30px;
                         }
                         input::placeholder {
                             text-align: center;
                         }
                         button {
-                            border: 1px solid black;
+                            border: 1px solid rgb(255, 255, 255);
+                            background-color: white;
                             border-radius: 50%;
                             outline: none;
                             width: 30px;
@@ -229,10 +243,19 @@ body {
                 }
                 button {
                     margin: 7px;
+                    background-color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    border-radius: 50px;
                     padding: 2px;
-                    width: 130px;
+                    width: 150px;
                     text-align: center;
+                    font-size: 17px;
                     font-weight: bolder;
+                }
+                button:hover {
+                    background-color: rgb(168, 168, 235);
+                    border: 1px solid rgb(0, 0, 255);
+                    transition: background 300ms;
                 }
             }
         }

@@ -1,0 +1,17 @@
+body {
+    background-image: url(../../../assets/img/fondo-principal.png);
+    background-size: cover;
+    background-repeat: repeat;
+    h1 {
+        background-color: rgba(161, 161, 161, 0.795);
+        margin: 20px 0;
+        padding: 7px;
+        text-align: center;
+    }
+    div {
+        p {
+            font-size: 35px;
+            font-weight: bolder;
+        }
+    }
+}

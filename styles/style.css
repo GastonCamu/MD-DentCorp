@@ -141,12 +141,12 @@ body main div.div-principal div.div-tabla table tr td {
   border: 1px solid rgb(192, 192, 252);
   padding: 2px;
 }
-body main div.div-principal div.div-tabla table tr td.turnos__titulo {
+body main div.div-principal div.div-tabla table tr td.fila__titulo__contenido {
   color: white;
   font-weight: bolder;
   background: rgb(83, 83, 155);
 }
-body main div.div-principal div.div-tabla table tr.turnos__fila__titulo {
+body main div.div-principal div.div-tabla table tr.fila__titulo {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -157,7 +157,7 @@ body main div.div-principal div.div-tabla table tr.selected {
   border-bottom: 4px solid rgb(0, 0, 0);
   background-color: rgb(245, 245, 255);
 }
-body main div.div-principal div.div-tabla table tr.turnos__contenido:hover {
+body main div.div-principal div.div-tabla table tr.fila__contenido:hover {
   background-color: rgb(245, 245, 255);
 }
 body main div.div-principal div.div-botones {
@@ -173,12 +173,13 @@ body main div.div-principal div.div-botones form {
   align-items: center;
 }
 body main div.div-principal div.div-botones form select {
-  width: 70px;
+  width: 80px;
   height: 30px;
   margin: 7px;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   font-weight: bolder;
+  outline: none;
 }
 body main div.div-principal div.div-botones form select option[value=Default] {
   display: none;

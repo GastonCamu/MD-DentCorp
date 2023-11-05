@@ -5,7 +5,7 @@ rows.forEach((row) => {
         event.stopPropagation(); // Evita que el evento se propague a elementos superiores
 
         // Si la fila no tiene la clase 'title-row', aplica la lógica de selección
-        if (!row.classList.contains('turnos__fila__titulo')) {
+        if (!row.classList.contains('fila__titulo')) {
             // Remueve la clase 'selected' de todas las filas
             rows.forEach((r) => {
                 r.classList.remove('selected');

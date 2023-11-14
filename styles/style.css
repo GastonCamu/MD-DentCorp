@@ -251,11 +251,14 @@ body footer p {
 @media (min-width: 320px) and (max-width: 719px) {
   body {
     width: 100%;
+    grid-template-rows: auto 1fr auto min-content;
   }
   body header {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: space-evenly;
+    border-radius: 0px;
+    margin: 0px auto;
     width: 100%;
   }
   body header div.empresa-logo {
@@ -264,11 +267,11 @@ body footer p {
   }
   body header div.MENU {
     order: 1;
-    margin: auto;
+    margin: 0px auto;
     width: 100%;
   }
   body header div.MENU nav {
-    margin: auto;
+    margin: 0px auto;
     width: 100%;
   }
   body header div.MENU nav ul li a {
@@ -304,18 +307,21 @@ body footer p {
     font-size: 10px;
   }
   body main {
+    min-height: 100%;
     width: 100%;
     margin: auto;
   }
   body main h2 {
     font-size: 20px;
+    margin: 15px;
   }
   body main div.div-principal {
     display: flex;
     flex-direction: column;
     padding: 20px;
     width: 100%;
-    margin: auto;
+    border-radius: 0px;
+    margin: 0px auto;
   }
   body main div.div-principal div.div-tabla {
     max-height: 800px;

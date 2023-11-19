@@ -280,7 +280,7 @@ body {
         }
     }
 }
-@media (min-width: 320px) and (max-width: 719px) {
+@media (min-width: 340px) and (max-width: 719px) {
     body {
         width: 100%;
         grid-template-rows: auto 1fr auto min-content;
@@ -305,7 +305,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     margin: 0px auto;
-                    width: 62vw;
+                    width: 65vw;
                     ul {
                         li {
                             a {

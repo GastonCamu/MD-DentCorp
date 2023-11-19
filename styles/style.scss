@@ -266,18 +266,20 @@ body {
         }
     }
     footer {
-        display: flex;
-        align-items: baseline;
+        text-align: center;
         justify-content: center;
-        margin-top: auto;
         width: 100%;
         grid-area: footer;
         background-color: #000000da;
         color: white;
-        height: 5vh;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
 
         p {
             font-size: 18px;
+            height: 100%;
+            background-color: #000000da;
         }
     }
 }

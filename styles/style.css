@@ -236,18 +236,20 @@ body main div.div-principal div.div-botones button:hover {
   transition: background 300ms;
 }
 body footer {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
   justify-content: center;
-  margin-top: auto;
   width: 100%;
   grid-area: footer;
   background-color: rgba(0, 0, 0, 0.8549019608);
   color: white;
-  height: 5vh;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
 }
 body footer p {
   font-size: 18px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8549019608);
 }
 
 @media (min-width: 340px) and (max-width: 719px) {

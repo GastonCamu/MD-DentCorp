@@ -393,6 +393,7 @@ body footer p {
     text-align: center;
   }
   body footer {
+    display: none;
     height: 4vh;
   }
   body footer p {

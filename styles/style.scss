@@ -160,6 +160,7 @@ body {
                     border-collapse: collapse;
                     tr {
                         cursor: pointer;
+                        word-wrap: break-word;
     
                         td {
                             text-align: center;
@@ -300,12 +301,15 @@ body {
                 margin: 0px auto;
                 width: 100%;
                 nav {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin: 0px auto;
-                    width: 100%;
+                    width: 62vw;
                     ul {
                         li {
                             a {
-                                font-size: 10px;
+                                font-size: 1.6vw;
                             }
                             a:hover {
                             }

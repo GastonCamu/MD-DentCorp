@@ -136,6 +136,7 @@ body main div.div-principal div.div-tabla table {
 }
 body main div.div-principal div.div-tabla table tr {
   cursor: pointer;
+  word-wrap: break-word;
 }
 body main div.div-principal div.div-tabla table tr td {
   text-align: center;
@@ -271,11 +272,14 @@ body footer p {
     width: 100%;
   }
   body header div.MENU nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px auto;
-    width: 100%;
+    width: 62vw;
   }
   body header div.MENU nav ul li a {
-    font-size: 10px;
+    font-size: 1.6vw;
   }
   body header div.perfil {
     width: 30%;
